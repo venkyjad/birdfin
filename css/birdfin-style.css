@@ -345,7 +345,7 @@
   .custom-navbar {
     border: none;
     margin-bottom: 0;
-    padding: 25px 0;
+    padding: 0px 0;
   }
 
   .custom-navbar .navbar-brand {
@@ -433,6 +433,7 @@
    transition: .2
    
  }
+ 
 
  .learn-more-button{
   margin-top: 8px;
@@ -458,6 +459,36 @@
  .learn-more-button:hover{
    /* background-color: #4681c3; */
    border:2px solid #fff;
+   /* color: #fff; */
+   opacity: .8;
+   transition: .2
+   
+ }
+
+ .learn-more-button-blue{
+  margin-top: 8px;
+  padding: 10px 35px 10px 35px;
+  padding-bottom: 7px;
+  padding-top: 5px;
+  font-weight: bolder;
+  color: #4681c3;
+  /* background-color: #4681c3; */
+  border: 2px solid #4681c3;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-right: 10px;
+ }
+ .learn-more-button-blue > a{
+   padding:0 !important;
+   color:#4681c3 !important;
+ }
+ .learn-more-button-blue > a:hover{
+  background: transparent !important;
+  /* color:#fff !important */
+ }
+ .learn-more-button-blue:hover{
+   /* background-color: #4681c3; */
+   border:2px solid #4681c3;
    /* color: #fff; */
    opacity: .8;
    transition: .2
@@ -611,6 +642,11 @@
   .home-mobile-banner{
     width:845px;
     margin-left: -150px;
+  }
+
+  .home-children-tips{
+    width:525px;
+    /* margin-left:-150px; */
   }
 
   /*---------------------------------------
