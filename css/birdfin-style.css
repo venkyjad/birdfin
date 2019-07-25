@@ -377,9 +377,15 @@
   }
  #logo{
   background: url('../logo.png') no-repeat center center;
+<<<<<<< HEAD
   background-size: 100%;
    width:128px;
    height:128px;
+=======
+  background-size: cover;
+   width:60px;
+   height:85px;
+>>>>>>> refs/remotes/origin/master
    margin-top:-27px;
    margin-right:2px;
    display: inline-block
@@ -427,9 +433,15 @@
 
  .register-button{
   margin-top: 8px;
+<<<<<<< HEAD
   padding: 14px 30px 14px 30px;
   padding-bottom: 17.5px;
   padding-top: 12.5px;
+=======
+  padding: 14px 35px 14px 35px;
+  padding-bottom: 7px;
+  padding-top: 5px;
+>>>>>>> refs/remotes/origin/master
   font-weight: bolder;
   color: #4681c3;
   background-color: #4681c3;
@@ -442,9 +454,13 @@
  .register-button > a{
    padding:0 !important;
    color: #fff !important;
+<<<<<<< HEAD
    width:115px;
    text-align:center;
    margin-top:2px;
+=======
+
+>>>>>>> refs/remotes/origin/master
  }
  .register-button > a:hover{
   background: transparent !important;
@@ -536,7 +552,7 @@
   }
 
   .custom-navbar .nav li a {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: normal;
     color: #7B7879;
     padding-right: 75px;
@@ -619,7 +635,11 @@
     -ms-flex-align: center;
     min-height: 100vh;
     position: relative;
+<<<<<<< HEAD
     padding-top: 174.5px;
+=======
+    padding-top: 10%;
+>>>>>>> refs/remotes/origin/master
     box-sizing:border-box;
   }
   .page-cover-image-wrap{
@@ -663,12 +683,20 @@
     display: flex;
     -ms-flex-align: center;
     min-height: 100vh;
+<<<<<<< HEAD
     position: relative;
     padding-top:142px;
   }
   .info-1 {
     margin-top: 253.5px;
     padding-right:38px;
+=======
+    position: relative;	
+  }
+  .home-info {
+    margin-top: 100px;
+
+>>>>>>> refs/remotes/origin/master
   }
   .info-6 h1{
 font-size:36px;
@@ -716,12 +744,20 @@ font-weight:bold;
   }
   
   .home-description{
+<<<<<<< HEAD
     font-size: 24px;
+=======
+    font-size: 14px;
+>>>>>>> refs/remotes/origin/master
 	color: #4F4B4C;
   }
   .home-description-intro{
 	color: #fff;
+<<<<<<< HEAD
     font-size: 24px;
+=======
+    font-size: 14px;
+>>>>>>> refs/remotes/origin/master
   }
 
 .home-mobile-banner {
@@ -734,6 +770,7 @@ font-weight:bold;
   }
   
   .video_container{
+<<<<<<< HEAD
 	  padding: 68px 0;
   }
 
@@ -742,6 +779,16 @@ font-weight:bold;
     position: absolute;
     font-weight: 900;
     font-size: 48px;
+=======
+	  padding: 20px 0;
+  }
+
+  .section-no{
+	left: 215px;
+    position: absolute;
+    font-weight: 900;
+    font-size: 25px;
+>>>>>>> refs/remotes/origin/master
 	font-family: 'Open Sans Bold', sans-serif;
 	
   }
@@ -757,6 +804,7 @@ font-weight:bold;
    }
    .home-img-01{
 	   position: absolute;
+<<<<<<< HEAD
     right: 120px;
     width: 280px;
     top: 65px;
@@ -766,10 +814,22 @@ font-weight:bold;
     width: 240px;
     margin-left: -6%;
     bottom: 60px;
+=======
+    right: 5%;
+    width: 210px;
+    top: 60px;
+   }
+   .home-img-02{
+	       position: absolute;
+    width: 125px;
+    margin-left: -6%;
+    bottom: -60px;
+>>>>>>> refs/remotes/origin/master
     z-index: 10;
    }
    .home-img-03{
 	     position: absolute;
+<<<<<<< HEAD
     right: 138px;
     top: -13px;
     width: 243px;
@@ -779,6 +839,17 @@ font-weight:bold;
     width: 242.5px;
     left: 143px;
     bottom: 10px;
+=======
+    right: 5%;
+    top: 5%;
+    width: 210px;
+   }
+   .home-img-04{
+	   position: absolute;
+    width: 160px;
+    left: 120px;
+    bottom: -70px;
+>>>>>>> refs/remotes/origin/master
     z-index: 10;
    }
   /*---------------------------------------
@@ -825,6 +896,7 @@ font-weight:bold;
     -ms-flex-align: center;
     min-height: 100vh;
 }
+<<<<<<< HEAD
 #features h1{
     font-size:36px;
 }
@@ -888,6 +960,68 @@ font-weight:bold;
     color: #00334C;
 }
 
+=======
+
+#features .features-wrapper .single-feature {
+    margin-bottom: 40px;
+    position: relative
+}
+
+#features .features-wrapper.right-icon .single-feature .features-icon {
+    position: absolute;
+    right: 0
+}
+
+#features .features-wrapper.left-icon .single-feature .features-icon {
+    position: absolute;
+    left: 0
+}
+
+#features .features-wrapper .single-feature .features-icon img {
+    max-width: 24px
+}
+
+#features .features-wrapper.right-icon .single-feature .features-details {
+    padding-right: 70px
+}
+
+#features .features-wrapper.left-icon .single-feature .features-details {
+    padding-left: 70px
+}
+
+#features .features-wrapper .single-feature .features-details h5 {
+    color: #000;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 25px
+}
+
+#features .features-wrapper .single-feature .features-details p {
+    font-size: 15px;
+    color: #000;
+    font-weight: 300;
+    line-height: 25px
+}
+
+#features .features-wrapper .single-feature .features-title h3 {
+    color: #000;
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 25px;
+	font-family: 'Open Sans Bold', sans-serif;
+	
+}
+
+.img-wid{
+	width:90%;
+}
+.p_feature{
+	 font-size: 20px;
+	font-weight: 900;
+	margin: 30px 0;
+}
+
+>>>>>>> refs/remotes/origin/master
 .link-features{   
 	display: flex;
     justify-content: center;
@@ -925,9 +1059,14 @@ font-weight:bold;
 	  color: #00354F;
   }
   .about-description{
+<<<<<<< HEAD
     font-size: 24px;
 	color: #4F4B4C;
     margin-bottom:36px;
+=======
+    font-size: 14px;
+	color: #4F4B4C;
+>>>>>>> refs/remotes/origin/master
   }
   .about-description-intro{
 	color: #fff;
@@ -1014,17 +1153,24 @@ font-weight:bold;
     display: flex;
     -ms-flex-align: center;    
     position: relative;
+<<<<<<< HEAD
     padding-top: 215px;
  }
  .image-wrap-work img{
      top:80px;
  }
+=======
+    padding-top: 12em;
+ }
+ 
+>>>>>>> refs/remotes/origin/master
  .work-children-tips{
     width: 90%;
     margin-top: 90px;
   }
   .work-intro-img2{
    position: absolute;
+<<<<<<< HEAD
     width: 242px;
     margin-left: 0px;
     bottom: -90px;
@@ -1059,6 +1205,36 @@ font-weight:bold;
   }
   .work-description{
     font-size: 24px;
+=======
+    width: 150px;
+    margin-left: 0px;
+    bottom: -70px;
+    z-index: 10;
+  }
+  .work-info {
+    margin-top: 150px;
+	margin-left:100px;
+  }
+  .work-info h1{
+      font-size:48px;
+  }
+  .work-2{
+      padding:50px 20%!important;
+  }
+  .work-h2{
+	   font-family: 'Open Sans Bold', sans-serif;
+	   font-size: 1.6em;
+	   color: #231F20;
+  }
+  .work-h3{
+	   font-family: 'Open Sans Bold', sans-serif;
+	   font-size: 1.2em;
+	   color: #231F20;
+	   margin-top:0;
+  }
+  .work-description{
+    font-size: 14px;
+>>>>>>> refs/remotes/origin/master
 	color: #4F4B4C;
   }
   #work-content{
@@ -1070,7 +1246,11 @@ font-weight:bold;
     -ms-flex-align: center;    
     position: relative;
     padding-top: 12em;
+<<<<<<< HEAD
 	padding:0 265px;
+=======
+	padding:0 250px;
+>>>>>>> refs/remotes/origin/master
  }
  .work-container{
 	 margin-top:80px;
@@ -1090,7 +1270,11 @@ font-weight:bold;
   text-align:center;
   }
   .icon-img-responsive{
+<<<<<<< HEAD
      width: 320px;
+=======
+     width: 200px;
+>>>>>>> refs/remotes/origin/master
     display: inline-block;
   }
   /*---------------------------------------
@@ -1104,7 +1288,11 @@ font-weight:bold;
     display: flex;
     -ms-flex-align: center;    
     position: relative;
+<<<<<<< HEAD
     padding-top: 352px;
+=======
+    padding-top: 12em;
+>>>>>>> refs/remotes/origin/master
  }
   #faq-content{
 	 vertical-align: middle;
@@ -1117,6 +1305,7 @@ font-weight:bold;
     padding-top: 12em;
 	padding:0 250px;
  }
+<<<<<<< HEAD
   .faq-img{
       margin-top:0;
   }
@@ -1139,6 +1328,20 @@ font-weight:bold;
   }
   .faq-2{
       margin-top:221px;
+=======
+ .faq-children-tips{
+    width: 90%;
+    margin-top: 90px;
+  }
+  .faq-intro-img2{
+   position: absolute;
+    right: 5%;
+    top: 50px;
+    width: 160px;
+  }
+  .faq-info {
+    margin-top: 150px;
+>>>>>>> refs/remotes/origin/master
   }
   .faq-info h1{
       font-size:48px!important;
@@ -1157,6 +1360,7 @@ font-weight:bold;
   }
   .faq-h3{
 	   font-family: 'Open Sans Bold', sans-serif;
+<<<<<<< HEAD
 	   font-size: 28px;
 	   color: #00354F;
   }
@@ -1166,6 +1370,17 @@ font-weight:bold;
   }
   .faq-list .content-block{
       margin-top:68px;
+=======
+	   font-size: 1.2em;
+	   color: #00354F;
+  }
+  .faq-description{
+    font-size: 14px;
+	color: #4F4B4C;
+  }
+  .faq-list .content-block{
+      margin-top:50px;
+>>>>>>> refs/remotes/origin/master
   }
   .faq-list ul{
 	 list-style: none;
@@ -1175,23 +1390,32 @@ font-weight:bold;
  }
  .icon-list h3{
 	 padding-left:20px;
+<<<<<<< HEAD
      font-size:28px;
+=======
+>>>>>>> refs/remotes/origin/master
 	 font-weight:bold;
  }
  .content-block .faq-anchor{	 
 	 color: #337ab7; 
+<<<<<<< HEAD
      font-size:20px;
      margin-bottom:15px;
+=======
+>>>>>>> refs/remotes/origin/master
  }
  .faq-anchor-viewall{
 	 font-weight:bold;
 	 color: #337ab7; 
 	 position:absolute;
 	 bottom:0;
+<<<<<<< HEAD
      font-size:20px;
  }
  .faq-list p{
      font-size:20px;
+=======
+>>>>>>> refs/remotes/origin/master
  }
  .icon-responsive{
 	width: 36px;
@@ -1224,12 +1448,17 @@ font-weight:bold;
  }
  .faq-catog{
 	    position: absolute;
+<<<<<<< HEAD
     top: 221px;
+=======
+    top: 150px;
+>>>>>>> refs/remotes/origin/master
     left: 20px;
     font-weight: bold;
     
     font-size: 18px;
  }
+<<<<<<< HEAD
  .faq-catog i{
      vertical-align:middle;
  }
@@ -1240,6 +1469,9 @@ font-weight:bold;
  .right-div{
      padding-left:34px;
  }
+=======
+ .faq-catog a{color: #337ab7!important;}
+>>>>>>> refs/remotes/origin/master
   /*---------------------------------------
       CONTACT             
   -----------------------------------------*/
@@ -1296,6 +1528,7 @@ font-weight:bold;
   .foot-cont{
 	  background: #00354F;
 	  width:100%;
+<<<<<<< HEAD
 	  padding:28px 20px 60px;
 	  margin-bottom:127px;
   }
@@ -1304,12 +1537,24 @@ font-weight:bold;
 		top: 180px;
         left:278px;
 		width: 320px;
+=======
+	  padding:44.5px 20px;
+	  margin-bottom:80px;
+  }
+  .img-foot{
+		position: relative;
+		top: 150px;
+		width: 250px;
+>>>>>>> refs/remotes/origin/master
   }
   
   .page-footer a{
     color:#231F20;
+<<<<<<< HEAD
     font-size:27px;
     font-weight:bold;
+=======
+>>>>>>> refs/remotes/origin/master
   }
   .footer-logo{
     width:50px;
@@ -1340,17 +1585,29 @@ font-weight:bold;
 
 .footer-tagline {
     color: #C5C62E !important;
+<<<<<<< HEAD
     font-size: 48px !important;
     font-weight: bold !important;
     margin-top: 35px !important;
     margin-bottom: 24px !important;
     line-height:1em!important;
+=======
+    font-size: 38px !important;
+    font-weight: bold !important;
+    margin-top: 35px !important;
+    margin-bottom: 35px !important;
+>>>>>>> refs/remotes/origin/master
 }
 
 .footer-description{
   color: #fff !important;
+<<<<<<< HEAD
   font-size: 24px !important;
   margin-bottom: 34px !important;
+=======
+  font-size: 20px !important;
+  margin-bottom: 17px !important;
+>>>>>>> refs/remotes/origin/master
   padding-right: 150px;
 }
 .footer-button{
@@ -1541,7 +1798,11 @@ font-weight:bold;
 }
 
   .navbar{
+<<<<<<< HEAD
       padding:32.5px 0 38.5px!important;
+=======
+      padding:15px 0!important;
+>>>>>>> refs/remotes/origin/master
 	  background-color: #fff;
   }
 
